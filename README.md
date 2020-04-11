@@ -1,2 +1,3 @@
-# experiment-nextjs
-Hands-on Next.js
+![](nextjs-logo.png)
+
+# Hands-on Next.js

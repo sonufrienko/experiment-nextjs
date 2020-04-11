@@ -1,0 +1,20 @@
+{
+  "name": "experiment-nextjs",
+  "version": "1.0.0",
+  "description": "Hands-on Next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonufrienko/experiment-nextjs.git"
+  },
+  "keywords": [],
+  "author": "Sergey Onufrienko <sergey@onufrienko.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonufrienko/experiment-nextjs/issues"
+  },
+  "homepage": "https://github.com/sonufrienko/experiment-nextjs#readme"
+}
