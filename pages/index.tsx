@@ -1,8 +1,7 @@
 import { NextPage } from 'next';
-import Head from 'next/head'
-import { PageHeader } from "antd"
-import Layout from "../components/Layout"
-
+import Head from 'next/head';
+import { PageHeader } from 'antd';
+import Layout from '../components/Layout';
 
 const IndexPage: NextPage = () => {
   return (
@@ -12,7 +11,7 @@ const IndexPage: NextPage = () => {
       </Head>
       <PageHeader className="site-page-header" title="Places" />
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
