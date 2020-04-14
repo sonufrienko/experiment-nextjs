@@ -1,0 +1,38 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.ant-layout-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.logo .icon {
+  font-size: 38px;
+  margin-right: 12px;
+}
+
+.ant-layout-content {
+  padding: 0px 50px;
+  max-width: 980px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+}
+
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  margin: 16px 0;
+  min-height: 280px;
+}
