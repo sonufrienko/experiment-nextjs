@@ -6,6 +6,29 @@ export const AllPlaces = gql`
       items {
         placeId
         name
+        type
+        description
+        address {
+          countryCode
+          city
+          line1
+          postalCode
+          state
+        }
+        location {
+          latitude
+          longitude
+        }
+        openingHours {
+          open {
+            day
+            time
+          }
+          close {
+            day
+            time
+          }
+        }
       }
       nextToken
     }
@@ -17,6 +40,29 @@ export const Place = gql`
     place(placeId: $placeId) {
       placeId
       name
+      type
+        description
+        address {
+          countryCode
+          city
+          line1
+          postalCode
+          state
+        }
+        location {
+          latitude
+          longitude
+        }
+        openingHours {
+          open {
+            day
+            time
+          }
+          close {
+            day
+            time
+          }
+        }
     }
   }
 `;
