@@ -2,6 +2,7 @@ import { NextPage } from 'next';
 import Head from 'next/head';
 import { ApolloClient, NormalizedCacheObject } from 'apollo-boost';
 import { useQuery } from '@apollo/react-hooks';
+import { PageHeader } from 'antd';
 import withApollo from '../lib/withApollo';
 import Layout from '../components/Layout';
 import PlaceList from '../components/PlaceList';
@@ -72,7 +73,7 @@ const IndexPage: NextPage<any> = (props: IndexPageProps) => {
       <Head>
         <title>Real Place - Next.js app</title>
       </Head>
-      <h1>Places</h1>
+      <PageHeader className="site-page-header" title="Places" />
       <PlaceList list={list} onLoadMore={onLoadMore} loading={isLoading} hasMore={hasMore} />
     </Layout>
   );

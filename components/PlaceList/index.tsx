@@ -26,7 +26,7 @@ const PlaceListItem = ({ item }: PlaceListItemProps) => (
       />
     </a>
     </Link>
-    <Tag color="success">open</Tag>
+    <Tag color="blue">open</Tag>
   </List.Item>
 );
 
@@ -49,6 +49,7 @@ const PlaceList = ({ list, onLoadMore, loading, hasMore }: PlaceListProps) => {
     <List
       className="demo-loadmore-list"
       itemLayout="horizontal"
+      style={{ padding: "0 24px" }}
       loading={loading}
       loadMore={loadMore}
       dataSource={list}
